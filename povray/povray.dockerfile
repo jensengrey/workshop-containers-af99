@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-RUN apt-get update && apt-get upgrade && echo "ubuntu:22.04"
+RUN apt-get update -y && apt-get upgrade -y
 
 RUn apt-get install --yes libboost-all-dev \
 	zlib1g-dev \
